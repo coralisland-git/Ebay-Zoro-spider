@@ -92,12 +92,7 @@ class ebayzoroSpider(scrapy.Spider):
 							'https://216.1.75.134:80',
 							'https://107.183.253.165:8118',
 							'https://23.105.86.50:8118',
-							'https://23.105.86.34:8118',
-							'https://23.245.167.99:8118',
-							'https://23.108.78.185:8118',
-							'https://23.108.75.104:8118',
-							'https://23.108.75.236:8118',
-							'https://23.105.78.226:8118'
+			
 						  ]
 
 		init_url = 'http://stores.ebay.com/Zoro-Tools/Gloves-Safety-Apparel-/_i.html?_fsub=4143466014&_sid=1113381714&_trksid=p4634.m322'
