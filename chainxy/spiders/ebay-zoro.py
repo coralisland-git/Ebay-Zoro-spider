@@ -136,7 +136,7 @@ class ebayzoroSpider(scrapy.Spider):
 				yield scrapy.Request(url=pagenation, callback=self.parse_product, meta={'proxy':self.proxy_list[self.ind]})
 		except:
 			pass
-		# pdb.set_trace()
+	
 		# self.count += 1
 		# try:
 		# 	product_list = response.xpath('//table[@class="FbOuterYukon"]//tr[@class="bot"]')
